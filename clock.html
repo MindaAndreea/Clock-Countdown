@@ -3,7 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/up/css/style.css" />
     <title>Clock and Countdown</title>
   </head>
-  <body></body>
+  <body>
+    <div class="video-container">
+      <video src="/img/bg.mp4" class="bg-video" autoplay muted loop></video>
+    </div>
+    <div class="clock">
+      <div class="clock-face">
+        <h1 class="clock-face-heading">Clock</h1>
+        <div class="clock-face-hands">
+          <div class="clock-face-hand clock-hours"></div>
+          <div class="clock-face-hand clock-minutes"></div>
+          <div class="clock-face-hand clock-seconds"></div>
+        </div>
+        <div class="clock-face-countdown">
+          <h2 class="clock-face-countdown-heading">Time Left</h2>
+          <div class="clock-face-countdown-body">
+            <div class="clock-face-countdown-body-days">30</div>
+            :
+            <div class="clock-face-countdown-body-hours">30</div>
+            :
+            <div class="clock-face-countdown-body-minutes">30</div>
+            :
+            <div class="clock-face-countdown-body-seconds">30</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
